@@ -1,0 +1,17 @@
+100 100 100 # Dimension(Nx Ny Nz)
+6 # Number of orientations
+5 40 # Thickness Radius
+1.35e3 1.35e3 1.35e3  # alpha beta gamma
+1.0   # temperature coefficient
+0.37037   # L0
+50.00e-21 50.00e-21 #migration barrier
+1773.15 # transition temperature
+1693.15 298.15 # start temperature; end temperature
+1.35e-9 1.35e-9 1.35e-9 # gradient coefficient (kx ky kz)
+2 # dx
+2e-4 # dt
+2000 100 0.1# Nstep Noutput NcoolingRate
+0.45 0.55 #surface energy
+1.0e6 #coefficient for nucleation rate
+
+
